@@ -5,8 +5,6 @@ description: "A simple chakra navbar"
 tags: ["chakra-ui", "react", "typescript"]
 ---
 
-## Chakra-UI Navbar 
-
 ```tsx
 import {
   Box,
@@ -28,7 +26,11 @@ export const Navbar = () => {
           </Heading>
         </Link>
         <Box ml={"auto"}>
-            <Button colorScheme="twitter" onClick={() => signOut()} size="lg">
+            <Button
+              colorScheme="twitter"
+              onClick={() => signOut()}
+              size="lg"
+            >
               sign out
             </Button>
 
