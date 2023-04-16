@@ -3,13 +3,14 @@
 	"version": "2.1.3",
 	"private": false,
 	"scripts": {
-		"dev": "astro dev",
+		"dev": "astro dev && postbuild",
 		"start": "astro dev",
 		"sync": "astro sync",
 		"check": "astro check",
 		"build": "astro build",
 		"preview": "astro preview",
-		"format": "prettier -w --plugin-search-dir=. --cache ."
+		"format": "prettier -w --plugin-search-dir=. --cache .",
+    "postbuild": "pagefind --source dist --bundle-dir pagefind"
 	},
 	"devDependencies": {
 		"@astrojs/image": "0.15.1",
@@ -47,6 +48,7 @@
 		"@astrojs/rss": "^2.1.1",
 		"@fontsource/jetbrains-mono": "^4.5.12",
 		"astro": "2.0.17",
+		"pagefind": "^0.12.0",
 		"satori": "0.4.1",
 		"satori-html": "^0.3.2",
 		"sharp": "^0.31.3"
