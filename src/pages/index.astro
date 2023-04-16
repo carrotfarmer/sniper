@@ -7,20 +7,19 @@ import { sortMDByDate } from "@/utils";
 
 import { SITE_NAME } from "@/data/constants"
 
-const siteName = SITE_NAME
-
 const MAX_POSTS = 10;
 const allPosts = await getCollection("post");
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 ---
 
-<PageLayout meta={{ title: siteName }}>
+<PageLayout meta={{ title: SITE_NAME }}>
 	<section>
-		<h1 class="title mb-6">Hello World!</h1>
 		<p class="mb-4">
-			Hi, I’m a theme for Astro, an example of how you can use this starter to create a personal
-			blog. If you want to know more about how you can customise me, add more posts, and make it
-			your own, click on one the github icon link below which will take you to my repo.
+      This site contains some of the longer code snippets that I frequently use.
+      <br />
+      Each snippet includes a title, description, some tags and the snippet itself.
+      <br />
+      Built with <a href="https://astro.build/" rel="noreferrer noopener" target="_blank" class="sm:hover text-link">astro</a>.
 		</p>
 		<SocialList />
 	</section>

@@ -13,9 +13,9 @@ const datetime = date.toISOString();
 const postDate = getFormattedDate(date);
 ---
 
-<time datetime={datetime} class="min-w-[120px] text-gray-500">{postDate}</time>
+<time datetime={datetime} class="min-w-[120px] text-gray-500 font-extralight">{postDate}</time>
 <Element>
-	<a href={`/posts/${post.slug}`} class="cactus-link" rel="prefetch">
+	<a href={`/posts/${post.slug}`} class="cactus-link font-semibold" rel="prefetch">
 		{post.data.title}
 	</a>
 </Element>
