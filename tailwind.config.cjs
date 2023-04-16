@@ -27,9 +27,9 @@ module.exports = {
 				"accent-2": "var(--theme-accent-2)",
 			},
 			fontFamily: {
-				// Add any custom fonts here
-				sans: [...fontFamily.sans],
-				serif: [...fontFamily.serif],
+        sans: ["JetBrains Mono", ...fontFamily.sans],
+        serif: ["JetBrains Mono", ...fontFamily.serif],
+        mono: ["JetBrains Mono", ...fontFamily.serif],
 			},
 			transitionProperty: {
 				height: "height",

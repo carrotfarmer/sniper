@@ -537,6 +537,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.38.0.tgz#73a8a0d8aa8a8e6fe270431c5e72ae91b5337892"
   integrity sha512-IoD2MfUnOV58ghIHCiil01PcohxjbYR/qCxsoC+xNgUwh1EY8jOOrYmu3d3a71+tJJ23uscEV4X2HJWMsPJu4g==
 
+"@fontsource/jetbrains-mono@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/jetbrains-mono/-/jetbrains-mono-4.5.12.tgz#d965dca932f0ecf5379013f4dff3aec7b817b91b"
+  integrity sha512-LJF1ala1/u+wXZmESFqIk08FA9yGX4/uAAleCHmXUMgEjvNAYFHUQQ7eK5hQQoBOwh99cU5suTrqYqEkgzwzPA==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
