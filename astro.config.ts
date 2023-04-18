@@ -18,7 +18,7 @@ export default defineConfig({
 		mdx({}),
 		tailwind({
 			config: {
-				applyBaseStyles: true,
+				applyBaseStyles: false,
 			},
 		}),
 		image({

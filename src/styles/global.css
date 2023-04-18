@@ -29,6 +29,7 @@
 
 	html {
 		@apply h-full scroll-smooth border-t-2 border-textColor;
+    font-family: JetBrains Mono, system-ui, sans-serif;
 	}
 
 	html body {
