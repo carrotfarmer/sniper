@@ -10,7 +10,7 @@ export default defineConfig({
 	site: "https://www.astro-theme-cactus.netlify.app/",
 	markdown: {
 		shikiConfig: {
-			theme: "dracula",
+			theme: "one-dark-pro",
 			wrap: true,
 		},
 	},
@@ -18,7 +18,7 @@ export default defineConfig({
 		mdx({}),
 		tailwind({
 			config: {
-				applyBaseStyles: true,
+				applyBaseStyles: false,
 			},
 		}),
 		image({
