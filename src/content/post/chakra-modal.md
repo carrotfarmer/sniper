@@ -1,6 +1,6 @@
 ---
 title: "Chakra-UI Modal"
-publishDate: "16 Apr 2023"
+publishDate: "18 Apr 2023"
 description: "chakra modal"
 tags: ["chakra-ui", "react", "typescript"]
 ---
@@ -23,7 +23,7 @@ import React from "react";
 
 interface ModalProps {}
 
-export const TweetModal: React.FC<TweetModalProps> = () => {
+export const Modal: React.FC<ModalProps> = () => {
   const { isOpen, onClose, onOpen } = useDisclosure();
   
   return (
