@@ -2,7 +2,7 @@
 title: "Chakra-UI Navbar"
 publishDate: "16 Apr 2023"
 description: "A simple chakra navbar"
-tags: ["chakra-ui", "react", "typescript"]
+tags: ["chakra-ui", "nextjs", "react", "typescript"]
 ---
 
 ```tsx
